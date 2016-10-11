@@ -1,15 +1,16 @@
 package service;
 
+import dao.DaoFactory;
 import dao.UserDao;
+import dao.UserDaoImpl;
 import domain.User;
-import service.UserException;
 
 /**
  * Created by codingBoy on 16/10/8.
  */
 public class UserService
 {
-    UserDao userDao=new UserDao();
+    UserDao userDao= DaoFactory.getUserDao();
 
     public void regist(User user) throws UserException
     {

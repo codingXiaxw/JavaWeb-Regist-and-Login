@@ -5,7 +5,7 @@
 实现模型(domain)、视图(jsp)、控制器(servlet)三者的分离
 
 ## JavaWeb三大框架
-实现Dao、Service、JavaWeb三者内容的分离。将xml文件当作数据库，用Dao对其进行读取。
+实现Web层、Business(业务逻辑层)、Dao(数据层)三者内容的分离。将xml文件当作数据库，用Dao对其进行读取。
 
 ## 功能
 ### 注册界面:  
